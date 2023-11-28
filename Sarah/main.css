@@ -11,7 +11,7 @@ header {
     font-family: 'Bungee', sans-serif;
 }
 
-body {
+body, input, textarea {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -30,7 +30,7 @@ header nav li a {
 .container {
     max-width: 1280px;
     width: 100%;
-    margin: o auto;
+    margin: 0 auto;
     }
 
 header .container, section .container {
@@ -62,7 +62,8 @@ section {
     color: #182c61;
 }
 
-section h2 {
+section h2, 
+section h3 {
     margin-bottom: 16px;
     font-family: 'Bungee', sans-serif;
     font-weight: normal;
@@ -81,6 +82,14 @@ section p {
     height: 24px;
 }
 
+.social li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social a {
+    text-decoration: none;
+}
 #contact {
     display: block;
 }
@@ -99,4 +108,32 @@ form input, form textarea, form button {
 
 form textarea {
     resize: none;
+    height: 80px;
+}
+
+.store-font {
+height: 350px;
+}
+
+form button {
+    background-color: #182c61;
+    color: #ecf0f1;
+    font-family: 'Bungee', sans-serif;
+    font-weight: normal;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2a489b;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182c61;
+}
+
+footer {
+    background-color: #182c61;
+    color: #ecf0f1;
+    padding: 16px 0;
 }
