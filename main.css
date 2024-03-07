@@ -1,0 +1,37 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+input,
+button,
+h2 {
+    display: block;
+    justify-content: space-between;
+    margin-top: 6px;
+    margin-left: 16px;
+    height: 32px;
+    width: 370px;
+}
+
+h2 {
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+button {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgb(237, 107, 129);
+    color: black;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+p {
+    padding: 10px;
+}
